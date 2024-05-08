@@ -502,7 +502,7 @@ static void _DrawImageNow(int textureId, int x, int y, int width, int height, in
 					GX_SetTevColorIn(GX_TEVSTAGE0, GX_CC_TEXA, GX_CC_TEXC, GX_CC_RASC, GX_CC_ZERO);
 					GX_SetTevAlphaIn(GX_TEVSTAGE0, GX_CA_ZERO, GX_CA_ZERO, GX_CA_ZERO, GX_CA_RASA);
 					
-					texObj = &backdropTexObj; color = (GXColor) {0,0,255,255};
+					texObj = &backdropTexObj; color = (GXColor) {0,0,0,0};
 					break;
 				default:
 					texObj = &backdropTexObj;
